@@ -32,4 +32,4 @@ name_field.send_keys(text)
 email_field.send_keys(text + "@example.com")
 
 # Submit the form
-driver.find_element_by_name("submit
+driver.find_element_by_name("submit").click()
